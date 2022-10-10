@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import FormValidation from './Components/FormValidation/FormValidation';
+import Resturant from './Components/Resturant/Resturant';
+import Todo from './Components/TODO React/Todo';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Resturant></Resturant>
+      {/* <Todo></Todo> */}
+      {/* <FormValidation></FormValidation> */}
     </div>
   );
 }
